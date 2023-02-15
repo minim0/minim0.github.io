@@ -8,8 +8,8 @@ html {
     font-family: 'JetBrains Mono', monospace;
     font-size: 14px;
     font-weight: 400;
-    background-color: #111111;
-	color: #dadada;
+    background-color: #222222;
+	color: #F9F9F9;
 }
 
 @media (min-width: 576px) {

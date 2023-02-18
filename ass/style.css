@@ -9,36 +9,47 @@ html {
     font-size: 14px;
     font-weight: 400;
     background-color: #111111;
-	color: #F9F9F9;
+	  color: #DADADA;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 600px) {
 	html {font-size: 16px}
 }
-@media (min-width: 1200px) {
-	html {font-size: 20px}
-}
-html, body, main {
+
+html, body, div {
     margin: 0;
     padding: 0;
     width: 100%;
 }
-main {
+.div1,.div2,.div3{
+  text-align: center;
+  width: 100%;
+}
+.div1 {
 	display: flex;
 	flex-direction: column;
-    margin: 0 auto;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 10px;
-	text-align: center;
+  margin: 30vh auto 20vh auto;
+	height: 30vh;
 }
-
+.div2 {
+  display: block;
+  margin: 0 auto;
+  height: 15vh;
+  padding-top: 5vh;
+}
+.div3 {
+  display: block;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1em;
+}
 a {
     text-decoration: none;
-    color: #dadada;
+    color: inherit;
+    margin: 0 10px;
 }
-a:hover{
-    color: #ffffff;
+a:hover {
+    color: #FFFFFF;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
